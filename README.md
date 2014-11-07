@@ -10,4 +10,4 @@ That's it, you can now start your workshop at:
 
     http://masteringxpaas-$your_domain.rhcloud.com
 
-![Cover Slide](https://raw.githubusercontent.com/eschabell/openshift-preso-devoxx-masteringxpaas/master/cover.png)
+![Cover Slide](https://raw.githubusercontent.com/eschabell/openshift-preso-devoxx-masteringxpaas/master/php/cover.png)
