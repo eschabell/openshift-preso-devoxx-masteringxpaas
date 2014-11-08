@@ -92,7 +92,7 @@
                 </section>
 
 
-                <!-- Start Part I -->
+<!-- Start Part I -->
 
                 <section>
                     <h2>Taking the xPaaS tour</h2>
@@ -212,7 +212,7 @@
                     </div>
                 </section>
 
-                <!-- The Tools -->
+<!-- The Tools -->
 
                 <section>
                     <h2>The tools (TODO)</h2>
@@ -232,17 +232,21 @@
                 <section>
                     <h2>Sign up, it's free!</h2>
                     <ul>
-                        <li><a href="http://openshift.com" target="_blank">http://openshift.com</a></li>
+                        <li><a href="https://www.openshift.com/app/account/new" target="_blank">http://openshift.com</a></li>
                         <li>Example projects you can deploy now</li>
                         <ul>
                             <li><a href="http://github.com/openshift" target="_blank">http://github.com/openshift</a></li>
                         </ul>
-                        <li>Help</li>
-                        <ul>
-                            <li>IRC freenode #openshift</li>
-                            <li>forums</li>
-                            <li>email: openshift@redhat.com</li>
-                        </ul>
+                        <div style="width: 800px; height: 200px; text-align: left;">
+                            <li>Help</li>
+                            <ul>
+                                <li>IRC freenode #openshift</li>
+                                <li>forums</li>
+                                <li>email: openshift@redhat.com</li>
+                            </ul>
+                            <a href="https://www.openshift.com/app/account/new" target="_blank"><img src="images/signup.png"></a>
+                        </div>
+
                     </ul>
                 </section>
 
@@ -427,12 +431,23 @@
 
 
                 <section>
-                    <h2>Mastering the basics</h2>
+                    <h2>Learning PaaS</h2>
                     <ul>
                         <li>PHP</li>
                         <li>Ruby</li>
                         <li>Java</li>
-                        <li>.Net</li>
+                        <li>Python</li>
+                        <li>Node.js</li>
+                        <li>Perl</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>PaaS: PHP</h2>
+                    <h4>Some options...</h4>
+                        <div align="center">
+                            <img src="images/php.png" />
+                        </div>
                     </ul>
                 </section>
 
@@ -445,7 +460,14 @@
                         <div align="right">
                             <a href="http://bpmworkshop-onthe.rhcloud.com" target="_blank"><img src="images/workshop.png"  height=50%" width="50%" /></a>
                         </div>
-                    </ul>
+                </section>
+
+                <section>
+                    <h2>PaaS: Ruby</h2>
+                    <h4>Some options...</h4>
+                    <div align="center">
+                        <img src="images/ruby.png" />
+                    </div>
                 </section>
 
 
@@ -453,21 +475,40 @@
                     <h2>PaaS: Ruby</h2>
                     <h4>Online Awestruct presentations</h4>
                     <ul>
-                        <li><code>$ rhc app create -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git presos</code></li>
+                        <li><code>$ rhc app create presos -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git</code></li>
                         <li><code>http://presos-$your_domain.rhcloud.com</code></li>
                         <div align="right">
                             <img src="images/presos.png" height="50%" width="50%">
                         </div>
                     </ul>
+                </section>
 
+                <section>
+                    <h2>PaaS: Ruby</h2>
+                    <h4>Rail development...</h4>
+                    <ul>
+                        <li>Quickstarts online offer easiest setup</li>
+                        <li>Or do it by hand with <a href="https://blog.openshift.com/how-to-host-ruby-on-rails-4-apps-on-openshift" target="_blank">OpenShift Rails example project</a></li>
+                        <div align="right">
+                            <img src="images/rubyrails.png" height="50%" width="50%">
+                        </div>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>PaaS: Java</h2>
+                    <h4>Some options...</h4>
+                    <div align="center">
+                        <img src="images/java.png" />
+                    </div>
                 </section>
 
                 <section>
                     <h2>PaaS: Java community</h2>
-                    <h4>TODO: JBoss jBPM migration project</h4>
+                    <h4>JBoss jBPM migration project</h4>
                     <ul>
-                        <li><code>$ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git jbpmmigration</code></li>
-                        <li><code>http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.5</code></li>
+                        <li><code>$ rhc app create jbpmmigration -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git</code></li>
+                        <li><code>http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.6</code></li>
                     </ul>
                     <div align="right">
                         <img src="images/jbpmmigration.png">
