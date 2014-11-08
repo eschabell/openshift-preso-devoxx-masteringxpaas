@@ -313,12 +313,23 @@
                         </ul>
                         <li>Use web admin console</li>
                     </ul>
-                    <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/domain.png">
+                    <div align="center">
+                        <img src="images/domains.png">
                     </div>
                 </section>
 
-                <section data-background="https://raw.githubusercontent.com/eschabell/erics-images/master/webadmin.png" data-background-size="99%">
+                <section>
+                    <h3>Web Admin Console</h3>
+                    <div align="center">
+                        <img src="images/webadmin.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Your account</h3>
+                    <div align="center">
+                        <img src="images/settings.png">
+                    </div>
                 </section>
 
                 <section data-background="https://raw.githubusercontent.com/eschabell/erics-images/master/instantapps.png" data-background-size="99%">
@@ -515,9 +526,39 @@
                     </div>
                 </section>
 
+                <section data-background-color="white">
+                    <h2>PaaS: Java community</h2>
+                    <h4>Now with WildFly...</h4>
+                    <ul>
+                        <li><code>$ rhc app create jbpmwildfly -t wildfly -n $new-domain</code></li>
+                        <li>Push jbpmmigration_upload-6.0.war to depoloyments directory</li>
+                        <ul>
+                            <li><code>$ cp jbpmmigration_upload-6.0.war jbpmwildfly/deployments</code></li>
+                            <li><code>$ git add jbpmwildfly/deployments</code></li>
+                            <li><code>$ git commit -m "Added web archive."; git push</code></li>
+                        </ul>
+                        <li><code>http://jbpmwildfly-$your_domain.rhcloud.com/jbpmmigration_upload-0.6</code></li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/wildfly.jpg" height="200px" width="200px" />
+                    </div>
+                </section>
+
+<!-- Mastering xPaaS -->
+
                 <section>
-                    <h2>PaaS: Java Enterprise</h2>
-                    <h4>TODO: JBoss EAP & Business Optimizer Demo</h4>
+                    <h2>Mastering xPaaS</h2>
+                    <ul>
+                        <li>aPaaS</li>
+                        <li>mPaaS</li>
+                        <li>iPaaS</li>
+                        <li>bpmPaaS</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>aPaaS: Java Enterprise</h2>
+                    <h4>JBoss EAP & Business Optimizer Demo</h4>
                     <ul>
                         <li><code>$ rhc app create optimizer -t jbosseap-6</code></li>
                         <li><code>$ cd optimizer</code></li>
@@ -532,7 +573,7 @@
                 </section>
 
                 <section>
-                    <h2>PaaS: Java Mobile</h2>
+                    <h2>mPaaS: Java Mobile</h2>
                     <h3>TODO: JBoss Aerogear + Devoxx Mobile Registration</h3>
                     <ul>
                         <li><code>$ rhc app create -t jbosseap-6 jaxlondon</code></li>
@@ -547,26 +588,50 @@
                     </div>
                 </section>
 
-
-                <!-- Mastering xPaaS -->
-
                 <section>
-                    <h2>Mastering xPaaS</h2>
+                    <h2>iPaaS: Java Integration</h2>
+                    <h3>TODO: JBoss Fuse</h3>
                     <ul>
-                        <li>aPaaS</li>
-                        <li>iPaaS</li>
-                        <li>bpmPaaS</li>
+                        <li>Featured xPaaS via the web console</li>
                     </ul>
+                    <div align="right">
+                        <img src="images/ipaas-fuse.png">
+                    </div>
                 </section>
 
+                <section>
+                    <h2>iPaaS: Data Integration</h2>
+                    <h3>JBoss DV</h3>
+                    <ul>
+                        <li>Featured xPaaS via web cosole</li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/ipaas-dv.png">
+                    </div>
+                </section>
 
+                <section>
+                    <h2>brmsPaaS: JBoss BRMS</h2>
+                    <h3>Rules and events</h3>
+                    <ul>
+                        <li>The <a href="https://github.com/eschabell/cartridge-bpmPaaS-coolstore-demo" target="_blank">Cool Store</a> example project</li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/brmsPaaS.png">
+                    </div>
+                </section>
 
-
-
-
-
-
-
+                <section>
+                    <h2>bpmPaaS: JBoss BPM Suite</h2>
+                    <h3>Rules, events and processes</h3>
+                    <ul>
+                        <li>Featured xPaaS via web cosole</li>
+                        <li>Many <a href="https://github.com/search?q=user%3Aeschabell+cartridge" target="_blank">example cartridges / projects...</a></li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/bpmPaaS.png">
+                    </div>
+                </section>
 
                 <section data-background-color="white">
 					<h2>Loving Your Hammers?</h2>
@@ -574,9 +639,6 @@
                         <img src="images/loving.png">
                     </div>
 				</section>
-
-                <section data-background="images/buzz.png" data-background-size="99%">
-                </section>
 
                 <section>
                     <div align="center">
