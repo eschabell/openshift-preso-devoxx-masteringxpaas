@@ -44,7 +44,7 @@
 			<div class="slides">
 				<section>
                     <div style="width: 1056px; height: 300px;">
-                        <h2><b>Mastering xPaaS</b></h2>
+                        <h2><a href="http://cfp.devoxx.be/2014/talk/QKM-0129/Mastering%20xPaaS%20-%20get%20down%20and%20dirty%20in%20the%20OpenShift%20Cloud" target="_blank"><b>Mastering xPaaS</b></a></h2>
                         <h3>Get down and dirty in the OpenShift Cloud</h3>
                     </div>
                     <div style="width: 1056px; height: 200px; color: white;">
@@ -59,6 +59,19 @@
                         Blog: <a href="http://schabell.org" style="color: red">http://schabell.org</a>
                     </div>
 				</section>
+
+                <section>
+                    <div style="width: 1056px; height: 150px;">
+                        <h2>Following along...</h2>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: white;">
+                        <h3><code>masteringxpaas-onthe.rhcloud.com</code></h3>
+                    </div>
+                    <div style="width: 600px; height: 200px; text-align: left;">
+                        Need to register? Do it now... <a href="https://www.openshift.com/app/account/new" target="_blank">https://www.openshift.com</a><br>
+                        <a href="https://www.openshift.com/app/account/new" target="_blank"><img src="images/signup.png"></a>
+                    </div>
+                </section>
 
                 <section>
                     <h3>University timeline</h3>
@@ -78,7 +91,8 @@
                     </ul>
                 </section>
 
-<!-- Start Part I -->
+
+                <!-- Start Part I -->
 
                 <section>
                     <h2>Taking the xPaaS tour</h2>
@@ -187,10 +201,18 @@
                     </div>
                 </section>
 
+                <section>
+                    <div style="width: 1056px; height: 200px;">
+                        <h2><b>This is important</b></h2>
+                        <h3>Follow along from here on out...</h3>
+                    </div>
+                    <div style="width: 800px; height: 200px; text-align: left;">
+                        Need to register? Should have done it already...
+                        <a href="https://www.openshift.com/app/account/new" target="_blank"><img src="images/signup.png"></a>
+                    </div>
+                </section>
 
-
-<!-- End Part I -->
-
+                <!-- The Tools -->
 
                 <section>
                     <h2>The tools (TODO)</h2>
@@ -358,7 +380,7 @@
 
 
 
-
+<!-- Into the Cloud -->
 
 
 
@@ -366,29 +388,6 @@
                 <section>
                     <h2>Into the Cloud (TODO)</h2>
                 </section>
-
-                <section  data-background-color="white">
-                    <h1>Take a break</h1>
-                    <h5>back in 30 mins...</h5>
-                    <div align="right">
-                        <img src="images/coffeebreak.png" width="50%" height="50%">
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Mastering the basics</h2>
-                </section>
-
-                <section>
-                    <h2>Mastering xPaaS</h2>
-                    <ul>
-                        <li>aPaaS</li>
-                        <li>iPaaS</li>
-                        <li>bpmPaaS</li>
-                    </ul>
-
-                </section>
-
 
 
                 <section>
@@ -402,49 +401,82 @@
                     </div>
 				</section>
 
-				<section>
-					<h2>Advanced Quickstarts</h2>
-				</section>
+<!-- End Part I -->
 
-				<section>
-					<h3>JAX London Mobile Registration</h3>
-                    <ul>
-                        <li><code>$ rhc app create -t jbosseap-6 jaxlondon</code></li>
-                        <li><code>$ cd jaxlondon</code></li>
-                        <li><code>$ git remote add upstream -m master git://github.com/eschabell/openshift-jaxlondon.git</code></li>
-                        <li><code>$ git pull -s recursive -X theirs upstream master</code></li>
-                        <li><code>$ git push</code></li>
-                        <li><code>http://jaxlondon-$your_domain.rhcloud.com</code></li>
-                    </ul>
+                <section  data-background-color="white">
+                    <h1>Take a break</h1>
+                    <h5>back in 30 mins...</h5>
                     <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/aerogear.png">
+                        <img src="images/coffeebreak.png" width="50%" height="50%">
                     </div>
                 </section>
 
-				<section>
-					<h3>Host Awestruct Presentations</h3>
+                <section>
+                    <h3>University timeline</h3>
+                    <ul>
+                        <li>Part II (15:15 - 16:30)</li>
+                        <ul>
+                            <li>Learning PaaS</li>
+                            <li>Mastering xPaaS</li>
+                        </ul>
+                    </ul>
+                </section>
+
+
+<!-- Start Part II -->
+
+
+                <section>
+                    <h2>Mastering the basics</h2>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                        <li>Java</li>
+                        <li>.Net</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>PaaS: PHP</h2>
+                    <h4>Hosting a workshop</h4>
+                    <ul>
+                        <li><code>$ rhc app create bpmworkshop -t php-5.4 --from-code git://github.com/eschabell/openshift-bpmsuite-workshop.git</code></li>
+                        <li><code>http://bpmworkshop-$your_domain.rhcloud.com</code></li>
+                        <div align="right">
+                            <a href="http://bpmworkshop-onthe.rhcloud.com" target="_blank"><img src="images/workshop.png"  height=50%" width="50%" /></a>
+                        </div>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h2>PaaS: Ruby</h2>
+                    <h4>Online Awestruct presentations</h4>
                     <ul>
                         <li><code>$ rhc app create -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git presos</code></li>
                         <li><code>http://presos-$your_domain.rhcloud.com</code></li>
+                        <div align="right">
+                            <img src="images/presos.png" height="50%" width="50%">
+                        </div>
                     </ul>
-                    <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/presos.png">
-                    </div>
-				</section>
+
+                </section>
 
                 <section>
-                    <h3>jBPM Migration Project</h3>
+                    <h2>PaaS: Java community</h2>
+                    <h4>TODO: JBoss jBPM migration project</h4>
                     <ul>
                         <li><code>$ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git jbpmmigration</code></li>
                         <li><code>http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.5</code></li>
                     </ul>
                     <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/jbpmmigration.png">
+                        <img src="images/jbpmmigration.png">
                     </div>
                 </section>
 
                 <section>
-                    <h3>Business Optimizer Demo</h3>
+                    <h2>PaaS: Java Enterprise</h2>
+                    <h4>TODO: JBoss EAP & Business Optimizer Demo</h4>
                     <ul>
                         <li><code>$ rhc app create optimizer -t jbosseap-6</code></li>
                         <li><code>$ cd optimizer</code></li>
@@ -454,50 +486,60 @@
                         <li><code>http://optimizer-$your_domain.rhcloud.com/optaplanner-webexamples-6.0.0-redhat-6</code></li>
                     </ul>
                     <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/optaPlannerLogo.png">
+                        <img src="images/optaPlannerLogo.png">
                     </div>
                 </section>
 
                 <section>
-                    <h3>Business Activity Monitoring</h3>
+                    <h2>PaaS: Java Mobile</h2>
+                    <h3>TODO: JBoss Aerogear + Devoxx Mobile Registration</h3>
                     <ul>
-                        <li><code>$ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-bpm-bam-dashboard.git bam</code></li>
-                        <li>setup user login:</li>
-                        <ul>
-                            <li><code>$ rhc app show bam</code></li>
-                            <li><code>$ scp bampreview/.openshift/config/bam-*.properties xxxxxxxxxx@bam-inthe.rhcloud.com:~/jbossas/standalone/configuration/</code></li>
-                        </ul>
-                        <li><code>http://bam-$your_domain.rhcloud.com (u:erics/p:erics)</code></li>
+                        <li><code>$ rhc app create -t jbosseap-6 jaxlondon</code></li>
+                        <li><code>$ cd jaxlondon</code></li>
+                        <li><code>$ git remote add upstream -m master git://github.com/eschabell/openshift-jaxlondon.git</code></li>
+                        <li><code>$ git pull -s recursive -X theirs upstream master</code></li>
+                        <li><code>$ git push</code></li>
+                        <li><code>http://jaxlondon-$your_domain.rhcloud.com</code></li>
                     </ul>
                     <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/bam.png">
+                        <img src="images/aerogear.png">
                     </div>
                 </section>
 
+
+                <!-- Mastering xPaaS -->
+
                 <section>
-                    <h3>OpenShift Primer Workshop</h3>
+                    <h2>Mastering xPaaS</h2>
                     <ul>
-                        <li><code>$ rhc app create -t ruby-1.9 --from-code=https://github.com/eschabell/jaxlondon-2013-workshop.git jaxlondon2013</code></li>
-                        <li><code>http://jaxlondon2013-$your_domain.rhcloud.com</code></li>
+                        <li>aPaaS</li>
+                        <li>iPaaS</li>
+                        <li>bpmPaaS</li>
                     </ul>
-                    <div align="right">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/workshop.png">
-                    </div>
                 </section>
 
-                <section>
+
+
+
+
+
+
+
+
+
+                <section data-background-color="white">
 					<h2>Loving Your Hammers?</h2>
                     <div align="center">
-                        <img src="https://raw.githubusercontent.com/eschabell/erics-images/master/loving.png">
+                        <img src="images/loving.png">
                     </div>
 				</section>
 
-                <section data-background="https://raw.githubusercontent.com/eschabell/erics-images/master/buzz.png" data-background-size="99%">
+                <section data-background="images/buzz.png" data-background-size="99%">
                 </section>
 
                 <section>
                     <div align="center">
-                        <img height="150" width="99%" src="https://raw.githubusercontent.com/eschabell/erics-images/master/references.jpg">
+                        <img height="150" width="99%" src="images/references.jpg">
                     </div>
                     <ul>
                         <li>OpenShift Primer Workshop - <a href="http://presos-onthe.rhcloud.com">http://presos-onthe.rhcloud.com</a></li>
