@@ -67,14 +67,9 @@
 
                 <section>
                     <h2>Learning PaaS</h2>
-                    <ul>
-                        <li>PHP</li>
-                        <li>Ruby</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Node.js</li>
-                        <li>Perl</li>
-                    </ul>
+                    <div align="center">
+                        <img src="images/learning.png" />
+                    </div>
                 </section>
 
                 <section>
@@ -88,7 +83,7 @@
 
                 <section>
                     <h2>PaaS: PHP</h2>
-                    <h4>Hosting a workshop</h4>
+                    <h4><a href="http://bpmworkshop-onthe.rhcloud.com/#/" target="_blank">Hosting a workshop</a></h4>
                     <ul>
                         <li><code>$ rhc app create bpmworkshop -t php-5.4 --from-code git://github.com/eschabell/openshift-bpmsuite-workshop.git</code></li>
                         <li><code>http://bpmworkshop-$your_domain.rhcloud.com</code></li>
@@ -108,7 +103,7 @@
 
                 <section>
                     <h2>PaaS: Ruby</h2>
-                    <h4>Online Awestruct presentations</h4>
+                    <h4><a href="http://presos-onthe.rhcloud.com/#/" target="_blank">Online Awestruct presentations</a></h4>
                     <ul>
                         <li><code>$ rhc app create presos -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git</code></li>
                         <li><code>http://presos-$your_domain.rhcloud.com</code></li>
@@ -140,7 +135,7 @@
 
                 <section>
                     <h2>PaaS: Java community</h2>
-                    <h4>JBoss jBPM migration project</h4>
+                    <h4><a href="http://jbpmmigration-inthe.rhcloud.com/" target="_blank">JBoss jBPM migration project</a></h4>
                     <ul>
                         <li><code>$ rhc app create jbpmmigration -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git</code></li>
                         <li><code>http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.6</code></li>
@@ -152,7 +147,7 @@
 
                 <section data-background-color="white">
                     <h2>PaaS: Java community</h2>
-                    <h5>Now with WildFly...</h4>
+                    <h5><a href="http://jbpmwildfly-bythe.rhcloud.com/jbpmmigration_upload-0.6/" target="_blank">Now with WildFly...</a></h4>
                     <ul>
                         <li><code>$ rhc app create jbpmwildfly -t wildfly -n $new-domain</code></li>
                         <li>Push <i>jbpmmigration_upload-6.0.war</i> to depoloyments directory</li>
@@ -173,16 +168,16 @@
                 <section>
                     <h2>Mastering xPaaS</h2>
                     <ul>
-                        <li>aPaaS</li>
-                        <li>mPaaS</li>
-                        <li>iPaaS</li>
-                        <li>bpmPaaS</li>
+                        <li>aPaaS, mPaaS, iPaaS, bpmPaaS</li>
                     </ul>
+                    <div align="center">
+                        <img src="images/xpaastagged.png" />
+                    </div>
                 </section>
 
                 <section>
                     <h2>aPaaS: Java Enterprise</h2>
-                    <h4>JBoss EAP & Business Optimizer Demo</h4>
+                    <h4><a href="http://optimizer-inthe.rhcloud.com/" target="_blank">JBoss EAP & Business Optimizer Demo</a></h4>
                     <ul>
                         <li><code>$ rhc app create optimizer -t jbosseap-6</code></li>
                         <li><code>$ cd optimizer</code></li>
@@ -198,7 +193,7 @@
 
                 <section>
                     <h2>mPaaS: Java Mobile</h2>
-                    <h3>Devoxx Mobile Registration</h3>
+                    <h3><a href="http://devoxx-inthe.rhcloud.com/" target="_blank">Devoxx Mobile Registration</a></h3>
                     <h5>Make some changes...</h5>
                     <div align="center">
                         <img src="images/devoxx2.png">
@@ -206,10 +201,24 @@
                 </section>
 
                 <section>
-                    <h2>iPaaS: Java Integration</h2>
-                    <h3>TODO: JBoss Fuse</h3>
+                    <h2>mPaaS: Java Mobile</h2>
+                    <h3><a href="http://push-inthe.rhcloud.com" target="_blank">AeroGear Push 0.x</a></h3>
                     <ul>
-                        <li>Featured xPaaS via the web console</li>
+                        <li>Apple Push Notification Service (APNs)</li>
+                        <li>Google Cloud Messaging (GCM)</li>
+                        <li>Mozilla's SimplePush</li>
+                        <li>cartridges - AeroGear & MySQL 5.5</li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/xpaaspush.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>iPaaS: Java Integration</h2>
+                    <h3><a href="http://fuse-inthe.rhcloud.com" target="_blank">JBoss Fuse</a></h3>
+                    <ul>
+                        <li><a href="https://blog.openshift.com/jboss-fuse-on-openshift-how-to-connect-to-twitter/" target="_blank">Featured xPaaS Twitter example</a></li>
                     </ul>
                     <div align="right">
                         <img src="images/ipaas-fuse.png">
@@ -217,10 +226,64 @@
                 </section>
 
                 <section>
-                    <h2>iPaaS: Data Integration</h2>
-                    <h3>TODO: <a href="https://developers.openshift.com/en/xpaas-data-virtualization.html#getting-started" target="_blank">JBoss Data Virtualization</a></h3>
+                    <h2>iPaaS: Java Integration</h2>
                     <ul>
-                        <li>Featured xPaaS via web cosole</li>
+                        <li>login with admin / password</li>
+                        <li>create a new container</li>
+                    </ul>
+                    <div align="center">
+                        <img src="images/fusecontainer.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>iPaaS: Java Integration</h2>
+                    <ul>
+                        <li>click on <i>Start and Create Container button</i></li>
+                        <li>watch container <i>mytwitter</i> provisioning</li>
+                    </ul>
+                    <div align="center">
+                        <img src="images/mytwitter.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>iPaaS: Java Integration</h2>
+                    <ul>
+                        <li>click on <i>mytwitter</i> and open application</li>
+                        <li>select <i>Camel</i> to view route via <i>twitter-demo</i> diagram</li>
+                        <li>lets change keyword to <i>devoxx</i></li>
+                    </ul>
+                    <div align="center">
+                        <img src="images/twitterdemo.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>iPaaS: Java Integration</h2>
+                    <ul>
+                        <li>select <i>Runtime -> Profiles -> example-camel-twitter</i></li>
+                        <li>edit the file <i>io.fabric8.examples.camel.twitter.properties</i></li>
+                        <li>open back up <i>twitter-demo diagram</i></li>
+                    </ul>
+                    <div align="center">
+                        <img src="images/devoxxsearch.png" height="50%" width="50%"><img src="images/devoxxroute.png" height="50%" width="50%">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>JBoss Fuse workshop</h2>
+                    <div align="center">
+                        <a href="http://slides.com/weimeilin/brmsfuselab#/" target="_blank"><img src="images/fuseworkshop.png"></a>
+                    </div>
+                </section>
+
+
+                <section>
+                    <h2>iPaaS: Data Integration</h2>
+                    <h3><a href="https://developers.openshift.com/en/xpaas-data-virtualization.html#getting-started" target="_blank">JBoss Data Virtualization</a></h3>
+                    <ul>
+                        <li><a href="https://github.com/DataVirtualizationByExample/DVWorkshop" target="_blank">Online DV workshop</a></li>
                     </ul>
                     <div align="right">
                         <img src="images/ipaas-dv.png">
@@ -276,6 +339,9 @@
                         <li><a href="https://github.com/openshift" target="_blank">OpenShift demo repository</a></li>
                         <li><a href="http://developerpress.com/OpenShiftPrimerRevision2-175421" target="_blank">OpenShift Primer e-book</a></li>
                     </ul>
+                    <div align="right">
+                        <img src="images/openshift_primer2.jpg" height="210px" width="150px">
+                    </div>
                 </section>
 
             </div>
