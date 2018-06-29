@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/masteringxpaas)
+
+
 Devoxx 2014 Uni Session
 -----------------------
 Create an account at http://openshift.redhat.com/
